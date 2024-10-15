@@ -5,7 +5,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: "Poppins";
+    font-family: 'Times New Roman', Times, serif
 
 }
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .main {
     
-        background-color: var(--color-complementario);
+        background-color: whitesmoke;
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .header {
     
-        background-color: hsla(var(--tono), 120%, 50%, 1);
+        background-color: var(--color-primario-medio);
         color: black;
         text-align: center;
         display: flex;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
         
         .header__tags--tag--2 {
     
-            background-color: hsla(var(--tono), 100%, 75%, 1);
+            background-color:var(--color-primario-oscuro);
             
             border-radius: 2px;
             padding: 5px;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     
         .presentation__cta {
     
-            border: 2px solid grey;
+            border: 2px solid whitesmoke;
             padding: 15px;
             font-size: small;
     
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     
         .presentation__a {
     
-            background-color: hsla(var(--tono), 100%, 50%, 1);
+            background-color: var(--color-primario-oscuro-medio);
             border: 1px solid black;
             color: white;
             
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
         .sources__tech {
 
             border: 2px solid rgb(22, 21, 21);
-            background-color: hsla(var(--tono), 100%, 50%, 1);
+            background-color: var(--color-primario-medio);
             flex-direction: column;
             box-sizing: border-box;
             margin: -18px;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .sources__links {
     
-        background-color: hsla(var(--tono), 100%, 50%, 1);
+        background-color: var(--color-primario-medio);
         box-sizing: border-box;
         margin: -18px;
 
